@@ -14,3 +14,5 @@ BOOL IS_VEHICLE_WINDOW_INTACT(Vehicle vehicle, int windowIndex);
 * **windowIndex**: 
 
 ## Return value
+This returns `1` if the window is **not** intact -- and returns `false` if it is intact.
+Which is kinda confusing.
